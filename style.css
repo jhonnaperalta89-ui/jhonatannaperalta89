@@ -1,0 +1,46 @@
+/* Nuevos estilos para la interfaz bancaria */
+.user-summary {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.user-summary strong { color: #003399; }
+
+.balance-card {
+    background: linear-gradient(135deg, #003399 0%, #00256e 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,51,153,0.3);
+}
+
+.balance-card .label { font-size: 0.8rem; opacity: 0.8; }
+.balance-card .amount { font-size: 2rem; margin: 10px 0; }
+.balance-card .due-date { font-size: 0.75rem; background: rgba(255,255,255,0.2); display: inline-block; padding: 3px 10px; border-radius: 15px; }
+
+.account-details h4 {
+    text-align: left;
+    color: #003399;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+
+.history-table th { text-align: left; color: #888; padding: 8px 0; font-weight: normal; }
+.history-table td { padding: 10px 0; border-bottom: 1px solid #eee; }
+.history-table .negative { color: #d9534f; font-weight: bold; text-align: right; }
+
+/* Ajuste al contenedor principal para que quepa la tabla */
+.container {
+    width: 380px;
+}
